@@ -1,0 +1,235 @@
+body{
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+/* ------------------------------------------ */
+/* One Fifth- Picture and some words */
+
+.top-section{
+    background-image: linear-gradient(to bottom, rgba(47, 43, 43, 0.551), rgba(0, 0, 0, 0.933)), url(/images/donation7.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 950px;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+
+.first-banner{
+    width: 808px;
+    height: 304px;
+    text-align: center;
+    padding-left: 23%;
+    padding-top: 15%;
+
+}
+.first-banner h1{
+    color: white;
+    font-size: 70px;
+}
+
+.first-banner p{
+    color: white;
+    font-size: 20px;
+}
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(coral, tomato);
+    font-size: 24px;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+/* --------------------------------------------- */
+/* Two Fifth- Amount Selection */
+
+.centre-section{
+    width: 765px;
+    height: 486.5px;
+    padding-left: 25%;
+    margin-bottom: 5%;
+}
+
+.text-part{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+#text{
+    margin-bottom: 10%;
+}
+
+.text-part h1{
+    font-size: 45px;
+    color: black;
+    font-weight: 700;
+}
+
+.text-part p{
+    font-size: 18px;
+    color: gray;
+}
+.amount ul{
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+li{
+    height: 50px;
+    margin: 4%;
+    background-color: rgba(128, 128, 128, 0.136);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5%;
+    color: gray;
+    border-radius: 10%;
+}
+
+#default-selection{
+    color: rgba(255, 0, 0, 0.709);
+    background-color: rgba(255, 0, 0, 0.281);
+    border: 2px solid rgba(255, 0, 0, 0.709);
+    border-radius: 10%;
+}
+
+input{
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    padding-left: 33%;
+}
+
+hr{
+    margin-bottom: 5%;
+}
+
+#button{
+    margin-left: 38%;
+}
+
+/* --------------------------------------------- /*
+/* Three Fifth- Donate Today */
+.third-section{
+    width: 1106px;
+    height: 532px;
+    padding-left: 12%;
+    margin-bottom: 4%;
+}
+
+.boxes{
+    display: flex;
+    height: 60%;
+    text-align: justify;
+    /* padding: 10%; */
+}
+
+.food{
+    background-color: #4f9da663;
+    margin-right: 5%;
+    padding: 5% 2%;
+    border-radius: 5%;
+}
+
+.shelter{
+    background-color: #ff595965;
+    margin-right: 5%;
+    padding: 5% 2%;
+    border-radius: 5%;
+}
+
+.education{
+    background-color: rgba(245, 222, 179, 0.583);
+    margin-right: 5%;
+    padding: 5% 2%;
+    border-radius: 5%;
+}
+
+.icons{
+    width: 53px;
+    height: 53px;
+}
+
+/* --------------------------------------------- */
+/* Forth fifth- Three picture and some words */
+.forth-section{
+    margin-bottom: 5%;
+}
+
+.scenerio{
+    display: flex;
+}
+
+.flood-scenerio{
+    width: 25%;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+
+#words{
+    width: 50%;
+    margin-left: 25%;
+}
+
+/* ------------------------------------------- */
+/* Fifth Section- Email and subscription */
+.fifth-section{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.input-segment{
+    background-color: wheat;
+    padding: 8%;
+}
+.email-submission{
+    width: 8%;
+}
+.email-submission form{
+    display: flex;
+}
+
+.email{
+    border: 2px solid grey;
+    text-align: justify;
+    margin-left: 380%;
+    padding: 12% 0;
+    background-color: rgba(128, 128, 128, 0.536);
+    
+}
+
+.btn{
+    background-color: rgba(232, 70, 70, 0.987);
+    padding: 18%;
+}
+
+/* ------------------------------------------- */
+/* Footer Section */
+
+footer{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+
+footer h2{
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'The Nautigal', cursive;
+    font-size: 30px;
+    color: chocolate;
+    padding-top: 1%;
+}
+footer p{
+    font-size: 18;
+    color: grey;
+}
